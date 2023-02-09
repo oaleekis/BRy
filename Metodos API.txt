@@ -1,0 +1,9 @@
+GET : http://127.0.0.1:8000/api/empresas Lista todas as empresas
+POST: http://127.0.0.1:8000/api/empresas Cria a empresas
+GET : http://127.0.0.1:8000/api/empresas{id} Lista a empresa pelo id
+DELETE: http://127.0.0.1:8000/api/empresas{id} Deleta a empresa pelo id
+
+GET : http://127.0.0.1:8000/api/funcionarios Lista todos os funcionarios
+POST: http://127.0.0.1:8000/api/funcionarios Cria o funcionario
+GET : http://127.0.0.1:8000/api/funcionarios{id} Lista o funcionario pelo id
+DELETE: http://127.0.0.1:8000/api/funcionarios{id} Deleta o funcionario pelo id

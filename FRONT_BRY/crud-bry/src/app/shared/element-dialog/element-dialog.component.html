@@ -1,0 +1,31 @@
+<h1 mat-dialog-title>Cadastrar Funcionario</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Login</mat-label>
+    <input matInput [(ngModel)]="data.login">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)]="data.nome">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Cpf</mat-label>
+    <input matInput [(ngModel)]="data.cpf">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput [(ngModel)]="data.email">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Endereço</mat-label>
+    <input matInput [(ngModel)]="data.endereco">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Senha</mat-label>
+    <input matInput [(ngModel)]="data.senha">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Cadastrar</button>
+</div>
